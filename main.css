@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.MainName{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 789.89px;
+    height: 135px;
+    left: 250px;
+    top: 172px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 114.894px;
+    line-height: 135px;
+    text-align: center;
+    color: #000000;
+    animation: namer 2s ease-in-out infinite;
+}
+.MainDiv{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF;
+}
+.logo{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 1460px;
+    top: 145px;
+    background: #191919;
+    border-radius: 105px;
+    animation: mover 2s ease-in-out infinite;
+}
+.emoje{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 250px;
+    top: 408px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 205px;
+    line-height: 240px;
+}
+.emoje{
+    animation: rotate 2s ease-in-out infinite
+}
+@keyframes rotate {
+
+    0%{transform:rotate(-40deg);}
+    10%{transform:rotate(-80deg);}
+    20%{transform:rotate(-120deg);}
+    30%{transform:rotate(-160deg);}
+    40%{transform:rotate(-200deg);}
+    50%{transform:rotate(-240deg);}
+    60%{transform:rotate(-280deg);}
+    70%{transform:rotate(-320deg);}
+    80%{transform:rotate(-360deg);}
+    100%{transform:rotate(-400deg);}
+}
+@keyframes mover{
+    0%{transform:translateY(2px)}
+    50%{transform:translateY(-10px)}
+    100%{transform:translateY(2px)}
+}
